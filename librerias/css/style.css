@@ -1,0 +1,54 @@
+.sub {
+    border: 2px solid;
+}
+
+.inline {
+    display: flex;
+    float: left;
+}
+
+.inline p {
+    padding-top: 45px;
+}
+
+#inscripcion {
+    margin-top: 34px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+#fecha input {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+#fecha p {
+    padding-top: 10px;
+}
+
+#borders {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.spacing {
+    margin-bottom: 40px;
+}
+
+#sexo {
+    background-color: #f2f2f2;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+#sexo label {
+    display: inline-block;
+}
+
+#sexo label:nth-of-type(2) {
+    margin: 0 20px;
+    padding: 0;
+    text-align: center;
+}
